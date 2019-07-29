@@ -6,4 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Test.unity
+    path: Assets/Demo/Scenes/FractureTest.unity
+    guid: e891f91773a952a4b943b501053195f3
+  m_configObjects: {}

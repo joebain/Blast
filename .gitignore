@@ -2,3 +2,8 @@ compiler/
 !compiler/cmake
 lib/
 sdk/extensions/serialization/source/generated/
+
+x64/
+bin/
+blast_tools_and_samples-windows/
+.vs/

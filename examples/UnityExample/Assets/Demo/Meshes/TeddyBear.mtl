@@ -1,0 +1,8 @@
+newmtl TeddyBear1
+	map_Kd C:/Users/HP/Desktop/bear/TeddyBear_color.tga
+	Kd 1.000000 1.000000 1.000000
+
+newmtl neverMat123XABCnever
+	map_Kd C:/Users/HP/Desktop/bear/TeddyBear_color.tga
+	Kd 1.000000 1.000000 1.000000
+

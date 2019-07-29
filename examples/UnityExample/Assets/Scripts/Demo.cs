@@ -111,7 +111,7 @@ public class Demo : MonoBehaviour
 
         if (Input.GetMouseButton(0))
         {
-            StartCoroutine(applyRadialDamage(hitSphere.transform.position, 0.0f, _hitSphereSize, 10.0f));
+            StartCoroutine(applyRadialDamage(hitSphere.transform.position, 0.0f, _hitSphereSize, CompressiveForce, ExplosiveForce));
         }
 
         hitSphere.SetActive(isActive);
@@ -119,4 +119,6 @@ public class Demo : MonoBehaviour
     }
 
     private float _hitSphereSize = 25.0f;
+    private float CompressiveForce = 10f;
+    private float ExplosiveForce = 300f;
 }

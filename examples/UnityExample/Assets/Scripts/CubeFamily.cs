@@ -120,6 +120,7 @@ public class CubeFamily : MonoBehaviour
         if (_actors.ContainsKey(rb))
         {
             Vector3 localPosition = rb.transform.InverseTransformPoint(position);
+            Debug.Log("apply radial damage to " + rb.name + " at " + localPosition);
             ApplyRadialDamage(_actors[rb], localPosition, minRadius, maxRadius, compressive);
             return true;
         }
